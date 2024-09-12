@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet" />
+
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/1470c8d187.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./style.css" />
+
+    <title>html</title>
+</head>
+
+<body>
+    <header>
+        <div class="header-inner">
+            <div class="menubar">
+                <div class="logo">
+                    <a class="navbar-brand" href="#">
+                        <img src="./images/logo 1.png" alt="" />
+                    </a>
+                </div>
+                <div class="topbar">
+                    <div class="topbar-inner d-flex justify-content-between">
+                        <div class="cta-address">
+                            <small>
+                                <i class="fa fa-map-marker" aria-hidden="true"></i> 4590
+                                Thousand Oaks Blvd #100Westlake Village, CA 91362</small>
+                        </div>
+                        <div class="cta-locations">
+                            <div class="cta d-flex align-items-center justify-content-center losAngles">
+                                <div class="icon d-flex justify-content-center align-items-center">
+                                    <i class="fa fa-phone" aria-hidden="true"></i>
+                                </div>
+                                <div class="cta-content mr-4">
+                                    <small>Los Angle</small>
+                                    <p>310-981-3404</p>
+                                </div>
+                            </div>
+
+                            <div class="cta d-flex align-items-center justify-content-center">
+                                <div class="icon d-flex justify-content-center align-items-center">
+                                    <i class="fa fa-paper-plane" aria-hidden="true"></i>
+                                </div>
+                                <div class="cta-content">
+                                    <small>Westlake Village</small>
+                                    <p>818-990-1999</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <nav class="navbar navbar-expand-xl">
+                    <div class="container-fluid">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"><svg xmlns="http://www.w3.org/2000/svg" height="1em"
+                                    viewBox="0 0 448 512">
+                                    <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                                    <path
+                                        d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z" />
+                                </svg></span>
+                        </button>
+
+                        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#">Attorney Profile</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Practice Areas</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Practice Areas</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Results</a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Contact</a>
+                                </li>
+                            </ul>
+                            <div class="d-flex align-items-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512">
+                                    <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                                    <path
+                                        d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z" />
+                                </svg>
+                                <button class="btn btn-primary menu-btn" type="submit">
+                                    Let's Talk
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <section class="banner-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="hero d-flex">
+                        <div class="banner-content">
+                            <h1 class="text-white">
+                                PROTECTING THE RIGHTS OF EMPLOYEES THROUGHOUT THE LOS ANGELES
+                                AREA
+                            </h1>
+                            <p class="text-white">
+                                Successfully representing employees in the areas of Family
+                                Medical Leave, Disability Discrimination, Wrongful Termination
+                                and Wage & Commissions disputes for more than 25 years
+                            </p>
+                            <button class="btn btn-primary primary icon-btn contactbtn">
+                                Contact Us For A Consultation
+                                <span class="icon">
+                                    <img src="./images/Vector.svg" alt="icon" />
+                                </span>
+                            </button>
+                        </div>
+
+                        <div class="cards">
+                            <div class="card">
+                                <small>Rated By</small>
+                                <p class="title">Super Lawyers</p>
+                                <p class="auther">Mathew Kufman</p>
+                                <button class="btn btn-primary secondary superbtn">
+                                    SuperLawyers.com
+                                </button>
+                            </div>
+
+                            <div class="card">
+                                <small>Rated By</small>
+                                <p class="title">Super Lawyers</p>
+                                <p class="auther">Mathew Kufman</p>
+                                <button class="btn btn-primary secondary thomosbtn">
+                                    Selected In 2022
+                                    <span class="sub-text">Thomson Returns</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- second section -->
+    <section class="commitedDiv">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="commitedWraper">
+                        <div class="handImg">
+                            <img src="./images/handimge.png" alt="" />
+                        </div>
+                        <div class="protectDiv d-none d-lg-block">
+                            <h2 class="text-white">
+                                TAKE ACTION TO PROTECT YOUR WORK PLACE RIGHTS
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <div class="comitedContent">
+                        <p>
+                            <img src="./images/Rectangle 1095.png" alt="" />The Rights of
+                            Workers Throughout Southern California
+                        </p>
+                        <h3>COMMITTED TO PROTECTING</h3>
+                        <span>Discrimination in the workplace is completely unacceptable.
+                            Yet, countless employees are either wrongfully terminated or
+                            forced to accept demotions due to unethical and unlawful
+                            business practices. My name is
+                            <span class="nameDiv"> Matthew A. Kaufman </span>and I am a
+                            Westlake Village employment law attorney. The loss of a job can
+                            be financially devastating. It can affect a person’s ability to
+                            pay their bills, rent, mortgage and live a good quality of life.
+                            Unfortunately, far too many people struggle in silence and never
+                            take action.</span>
+                        <div class="borderDiv">
+                            <p>
+                                Over the years, I have successfully helped men and women in
+                                Westlake Village and Los Angeles recover the compensation they
+                                deserved, allowing them to move on with their lives.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- slider section -->
+
+    <section class="slider-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 sliderrow">
+                    <div class="bgDiv">
+                        <h4>PRACTICE AREAS</h4>
+                    </div>
+
+                    <div class="slider-wrapoer">
+                        <div id="carouselExampleControls" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <div class="card-wrapper container-sm d-lg-flex  justify-content-around">
+                                        <div class="card  ">
+                                            <img src="./images/icon-1.png" alt="">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Employment Class Actions</h5>
+                                                <a class="text-primary anchorBtn" href="#">More Info <img
+                                                        src="./images/Arrow-2.svg" alt="">
+                                                </a>
+
+                                            </div>
+                                        </div>
+                                        <div class="card">
+                                            <img src="./images/icon-2.png" alt="">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Wrongful Termination</h5>
+                                                <a class="text-primary anchorBtn" href="#">More Info <img
+                                                        src="./images/Arrow-2.svg" alt="">
+                                                </a>
+
+                                            </div>
+                                        </div>
+                                        <div class="card  ">
+                                            <img src="./images/icon-3.png" alt="">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Wage & Hour Issues</h5>
+                                                <a class="text-primary anchorBtn" href="#">More Info <img
+                                                        src="./images/Arrow-2.svg" alt="">
+                                                </a>
+
+                                            </div>
+                                        </div>
+                                        <div class="card  ">
+                                            <img src="./images/icon-4.png" alt="">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Sexual Harassment</h5>
+                                                <a class="text-primary anchorBtn" href="#">More Info <img
+                                                        src="./images/Arrow-2.svg" alt="">
+                                                </a>
+
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+
+                                <div class="carousel-item ">
+                                    <div class="card-wrapper container-sm d-lg-flex  justify-content-around">
+                                        <div class="card  ">
+                                            <img src="./images/icon-1.png" alt="">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Employment Class Actions</h5>
+                                                <a class="text-primary anchorBtn" href="#">More Info <img
+                                                        src="./images/Arrow-2.svg" alt="">
+                                                </a>
+
+                                            </div>
+                                        </div>
+                                        <div class="card">
+                                            <img src="./images/icon-2.png" alt="">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Wrongful Termination</h5>
+                                                <a class="text-primary anchorBtn" href="#">More Info <img
+                                                        src="./images/Arrow-2.svg" alt="">
+                                                </a>
+
+                                            </div>
+                                        </div>
+                                        <div class="card  ">
+                                            <img src="./images/icon-3.png" alt="">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Wage & Hour Issues</h5>
+                                                <a class="text-primary anchorBtn" href="#">More Info <img
+                                                        src="./images/Arrow-2.svg" alt="">
+                                                </a>
+
+                                            </div>
+                                        </div>
+                                        <div class="card  ">
+                                            <img src="./images/icon-4.png" alt="">
+                                            <div class="card-body">
+                                                <h5 class="card-title">Sexual Harassment</h5>
+                                                <a class="text-primary anchorBtn" href="#">More Info <img
+                                                        src="./images/Arrow-2.svg" alt="">
+                                                </a>
+
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                               
+
+
+
+
+
+                                <button class="carousel-control-prev" type="button"
+                                    data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button"
+                                    data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+
+    <!-- third section -->
+    <section class="commitedDiv thirdSection">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="comitedContent">
+                        <h3>Types Of Workplace Discrimination and Violations</h3>
+                        <span>The Most workers do not realize there are laws on the books
+                            designed to protect their freedoms as employees, such as the
+                            Equal Pay Act of 1963 and
+                            <span class="nameDiv"> the Family Medical Leave Act.</span> By
+                            addressing the specific issues of your case, we can immediately
+                            go on the attack and fight for the compensation that belongs to
+                            you. First, it is important to understand there are various
+                            types of employment law violations.</span>
+                        <div class="borderDiv">
+                            <p>
+                                The team at the Kaufman Law Firm can provide legal
+                                representation for the following types of employment law cases
+                                in Los Angeles and Westlake Village including:
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <div class="commitedWraper">
+                        <div class="handImg">
+                            <img src="./images/ladyImg.png" alt="" />
+                        </div>
+                        <div class="protectDiv d-none d-lg-block">
+                            <h2 class="text-white">
+                                TAKE ACTION TO PROTECT YOUR WORK PLACE RIGHTS
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-wrapper">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12  ">
+                        <div class="footer-links">
+                            <ul class="text-white">
+                                <li>Attorney Profile</li>
+                                <li>Practice Areas</li>
+                                <li>Results</li>
+                                <li>Articles</li>
+                                <li>Blog</li>
+                                <li>FAQ</li>
+                                <li>Contact us</li>
+                            </ul>
+                        </div>
+                        <div class="social-links">
+                            <div class="soc">
+
+                                <svg width="30" height="30" viewBox="0 0 30 30" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <circle cx="15" cy="15" r="15" fill="white" />
+                                    <path
+                                        d="M11.148 9.55625C11.1477 9.96878 10.9817 10.3643 10.6864 10.6559C10.3911 10.9475 9.99063 11.1111 9.57319 11.1109C9.15575 11.1107 8.75548 10.9467 8.46045 10.6548C8.16542 10.3629 7.99979 9.96723 8 9.55469C8.00021 9.14216 8.16624 8.7466 8.46156 8.45504C8.75689 8.16348 9.15732 7.99979 9.57476 8C9.99221 8.00021 10.3925 8.16428 10.6875 8.45614C10.9825 8.74799 11.1482 9.14371 11.148 9.55625ZM11.1952 12.2628H8.04722V22H11.1952V12.2628ZM16.1689 12.2628H13.0367V22H16.1375V16.8903C16.1375 14.0438 19.8914 13.7793 19.8914 16.8903V22H23V15.8326C23 11.0339 17.4439 11.2128 16.1375 13.5694L16.1689 12.2628Z"
+                                        fill="black" />
+                                </svg>
+
+                            </div>
+                            <div class="soc">
+
+                                <svg width="30" height="30" viewBox="0 0 30 30" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M15 0C6.717 0 0 6.717 0 15C0 23.283 6.717 30 15 30C23.283 30 30 23.283 30 15C30 6.717 23.283 0 15 0ZM21.8488 11.6954C21.8555 11.843 21.8587 11.9913 21.8587 12.1404C21.8587 16.6898 18.3957 21.936 12.0628 21.9363H12.063H12.0628C10.1184 21.9363 8.3091 21.3663 6.78543 20.3897C7.05482 20.4215 7.32903 20.4373 7.60666 20.4373C9.21982 20.4373 10.7043 19.8871 11.8829 18.9635C10.3757 18.9356 9.10492 17.9402 8.66638 16.5722C8.87627 16.6125 9.0921 16.6344 9.31343 16.6344C9.62769 16.6344 9.9321 16.5921 10.2214 16.5131C8.64601 16.1977 7.45926 14.8055 7.45926 13.1383C7.45926 13.1227 7.45926 13.1087 7.45972 13.0943C7.92366 13.3523 8.45421 13.5075 9.01909 13.5249C8.09464 12.908 7.48695 11.8536 7.48695 10.659C7.48695 10.0282 7.65747 9.43726 7.95319 8.92845C9.65103 11.0117 12.1884 12.3818 15.0499 12.5258C14.9908 12.2736 14.9604 12.0108 14.9604 11.7407C14.9604 9.84009 16.5024 8.29811 18.4037 8.29811C19.3941 8.29811 20.2885 8.71674 20.9168 9.38599C21.7012 9.23126 22.4377 8.9447 23.1031 8.55034C22.8456 9.35394 22.3 10.0282 21.5891 10.4546C22.2855 10.3713 22.9493 10.1866 23.5661 9.91241C23.1054 10.603 22.5211 11.2095 21.8488 11.6954Z"
+                                        fill="white" />
+                                </svg>
+
+                            </div>
+                            <div class="soc">
+
+                                <svg width="30" height="30" viewBox="0 0 30 30" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M15 0C6.72903 0 0 6.72903 0 15C0 23.2704 6.72903 30 15 30C23.2704 30 30 23.2704 30 15C30 6.72903 23.2716 0 15 0ZM18.7304 15.5281H16.29V24.2262H12.6738C12.6738 24.2262 12.6738 19.4735 12.6738 15.5281H10.9548V12.4539H12.6738V10.4654C12.6738 9.04133 13.3505 6.81604 16.3232 6.81604L19.0029 6.82631V9.81048C19.0029 9.81048 17.3745 9.81048 17.0579 9.81048C16.7413 9.81048 16.2912 9.96878 16.2912 10.6479V12.4545H19.0464L18.7304 15.5281Z"
+                                        fill="white" />
+                                </svg>
+
+                            </div>
+                        </div>
+                        <div class="footer-links">
+                            <ul>
+                                <li> <a href="#">Terms of Services</a> </li>
+                                <li> <a href="#">Privacy Policy</a> </li>
+                            </ul>
+                        </div>
+
+                        <div class="copyright text-white ">
+                            &copy; 2023 by The Kaufman Law Firm. All right reserved
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
